@@ -10,6 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Link(destination: URL(string: "https://apple.com")!) {
+                HStack(content: {
+                    Image(systemName: "apple.logo")
+                    Text("Apple Store")
+                })
+            }
+                .buttonStyle(.borderedProminent)
+                .tint(Color.blue)
+                .font(.largeTitle)
+                .padding()
+                .padding(.horizontal)
+                .background(
+                    Capsule().fill(Color.blue)
+                )
             Link("Go to Apple", destination: URL(string: "https://apple.com")!)
                 .buttonStyle(.borderedProminent)
                 .tint(Color.red)
