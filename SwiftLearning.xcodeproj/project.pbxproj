@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5554B7C42A8CBA3100697F5D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554B7C32A8CBA3100697F5D /* CardView.swift */; };
+		5554B7C72A8CBB9100697F5D /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554B7C62A8CBB9100697F5D /* CustomBackgroundView.swift */; };
+		5554B7CA2A8CBCE100697F5D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554B7C92A8CBCE100697F5D /* ColorExtension.swift */; };
+		5554B7CC2A8CC1D500697F5D /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554B7CB2A8CC1D500697F5D /* CustomButtonView.swift */; };
 		55F5116A2A8B7A0D009C9D9D /* SwiftLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F511692A8B7A0D009C9D9D /* SwiftLearningApp.swift */; };
 		55F5116C2A8B7A0D009C9D9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F5116B2A8B7A0D009C9D9D /* ContentView.swift */; };
 		55F5116E2A8B7A0F009C9D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F5116D2A8B7A0F009C9D9D /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5554B7C32A8CBA3100697F5D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5554B7C62A8CBB9100697F5D /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		5554B7C92A8CBCE100697F5D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		5554B7CB2A8CC1D500697F5D /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		55F511662A8B7A0D009C9D9D /* SwiftLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F511692A8B7A0D009C9D9D /* SwiftLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearningApp.swift; sourceTree = "<group>"; };
 		55F5116B2A8B7A0D009C9D9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5554B7C52A8CBB6E00697F5D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5554B7C32A8CBA3100697F5D /* CardView.swift */,
+				5554B7C62A8CBB9100697F5D /* CustomBackgroundView.swift */,
+				5554B7CB2A8CC1D500697F5D /* CustomButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5554B7C82A8CBCCF00697F5D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5554B7C92A8CBCE100697F5D /* ColorExtension.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		55F5115D2A8B7A0D009C9D9D = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +120,12 @@
 		55F511682A8B7A0D009C9D9D /* SwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				5554B7C82A8CBCCF00697F5D /* utils */,
 				55F511692A8B7A0D009C9D9D /* SwiftLearningApp.swift */,
 				55F5116B2A8B7A0D009C9D9D /* ContentView.swift */,
 				55F5116D2A8B7A0F009C9D9D /* Assets.xcassets */,
 				55F5116F2A8B7A0F009C9D9D /* Preview Content */,
+				5554B7C52A8CBB6E00697F5D /* Components */,
 			);
 			path = SwiftLearning;
 			sourceTree = "<group>";
@@ -258,7 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F5116C2A8B7A0D009C9D9D /* ContentView.swift in Sources */,
+				5554B7C42A8CBA3100697F5D /* CardView.swift in Sources */,
 				55F5116A2A8B7A0D009C9D9D /* SwiftLearningApp.swift in Sources */,
+				5554B7CC2A8CC1D500697F5D /* CustomButtonView.swift in Sources */,
+				5554B7C72A8CBB9100697F5D /* CustomBackgroundView.swift in Sources */,
+				5554B7CA2A8CBCE100697F5D /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
